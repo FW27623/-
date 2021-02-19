@@ -256,7 +256,7 @@ def notify(sckey, status, message):
   if sckey.startswith('SC'):
     logging.info('准备推送通知...')
     url = 'https://sc.ftqq.com/{}.send'.format(sckey)
-    data = {'text': '原神签到小助手 签到{}'.format(status), 'desp': message}
+    data = {'text': '原神签到小助手-Power by FangWei 签到{}'.format(status), 'desp': message}
     try:
       jdict = json.loads(
               requests.Session().post(url, data = data).text)

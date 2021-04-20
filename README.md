@@ -1,6 +1,6 @@
 <div align="center"> 
 <h1 align="center">
-Genshin Impact Helper
+Genshin Impact Signin
 </h1>
 
 ![Genshin Impact Helper](https://i.loli.net/2020/11/18/3zogEraBFtOm5nI.jpg)
